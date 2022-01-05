@@ -11,6 +11,7 @@ namespace Xamarin.AppleSignIn
         public JwtToken IdToken { get; set; }
         public string RealUserStatus { get; set; }
         public string UserId { get; set; }
+        public DateTime Expiration { get; set; }
 
         public string AccessToken { get; set; }
         public string RefreshToken { get; set; }
